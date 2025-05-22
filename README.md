@@ -105,17 +105,14 @@ Bu sistem, özellikle güvenlik açısından hassas ortamlarda **dosya güvenili
 
 ## 📝 Not
 
-`data/baseline_hashes.txt` ve `logs/integrity.log` dosyaları repoda yer almaz.
+* `data/baseline_hashes.txt` ve `logs/integrity.log` dosyaları repoda yer almaz.
 
-Bu dosyalar script çalıştığında otomatik olarak oluşturulur.
+  * Bu dosyalar script çalıştırıldığında **otomatik olarak oluşturulur.**
+  * Her kullanıcıda farklı değerler üretileceği için repoda paylaşılmaz.
+* `data/integrity_report.txt` dosyası repoda **boş olarak** yer alır.
 
-Her kullanıcıda farklı değerler üretileceği için repoda paylaşılmaz.
-
-`data/integrity_report.txt` dosyası repoda **boş olarak** yer alır.
-
-Script çalıştığında bu dosya otomatik olarak doldurulur.
-
-Böylece klasör yapısı eksik görünmez.
+  * Script çalıştıkça içeriği otomatik güncellenir.
+* `check_integrity.sh` dosyası, tüm bu dosyaları ilk çalıştırmada kurar ve bütünlük kontrolünü başlatır.
 
 ---
 
