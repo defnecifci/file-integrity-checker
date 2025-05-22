@@ -111,7 +111,7 @@ Bu dosyalar script çalıştığında otomatik olarak oluşturulur.
 
 Her kullanıcıda farklı değerler üretileceği için repoda paylaşılmaz.
 
-`data/integrity_report.txt` dosyası repoda boş olarak yer alır.
+`data/integrity_report.txt` dosyası repoda **boş olarak** yer alır.
 
 Script çalıştığında bu dosya otomatik olarak doldurulur.
 
