@@ -1,0 +1,4 @@
+==== Dosya Bütünlüğü Raporu (Thu May 22 03:56:59 +03 2025) ====
+[YENİ] /opt/scripts/ornek2.sh
+[YENİ] /opt/scripts/yeni_script.sh
+[YENİ] /opt/scripts/ornek3.sh

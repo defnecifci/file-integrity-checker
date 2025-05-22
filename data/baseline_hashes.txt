@@ -1,0 +1,2 @@
+bba415f958b87ff05a1f5e223bbc35c17e5ef58b45b1af697999f1ce3c9b98bb  /opt/scripts/new_file.sh
+df1afe3242253ba741e935d75a2656a649223477cc3b307a7efdd9308a6364b4  /opt/scripts/a.sh
