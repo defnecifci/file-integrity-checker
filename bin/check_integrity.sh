@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # === Tanımlar ===
-ROOT_DIR="/Users/defnecifci/scripts/file-integrity-checker"
+ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 SCRIPTS_DIR="/opt/scripts"
 BASELINE_FILE="$ROOT_DIR/data/baseline_hashes.txt"
 REPORT_FILE="$ROOT_DIR/data/integrity_report.txt"
